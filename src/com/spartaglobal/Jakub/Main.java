@@ -9,15 +9,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
-    Prime prime = new Prime();
-    Fibonacci fibonacci = new Fibonacci();
-    GetMax getMax = new GetMax();
-    Loops loops = new Loops();
+
 
 
     public static void main(String[] args) {
 
-        Fibonacci.fibb(10);
+//        Fibonacci.fibb(6);
+        Prime.prime(101);
+
 
     }
 
